@@ -1,0 +1,42 @@
+cat hash-.pdf personal.txt | md5sum
+cat hash-.pdf personal_.txt | md5sum
+f86fcea2b731ae11d33accb1e0096fde
+269a6c9b92f52974f18cd774d739c87c
+Liczba ró¿ni¹cych siê bitów: 63 z 128, procentowo: 49%.
+
+cat hash-.pdf personal.txt | sha1sum
+cat hash-.pdf personal_.txt | sha1sum
+5c12fa9a5d40ef5905a8986e9913cdc5cafe6bd4
+4b496144f923e054a0a0d6b07ea57e98ac3aae8f
+Liczba ró¿ni¹cych siê bitów: 86 z 160, procentowo: 54%.
+
+cat hash-.pdf personal.txt | sha224sum
+cat hash-.pdf personal_.txt | sha224sum
+bda78a94b5ae7314e7e006015c82f5ef244469dfebd840285f550b6c
+a036d49e34d46e6d73afc04a23e39a3c3ed1210b5bf6f53356a33666
+Liczba ró¿ni¹cych siê bitów: 111 z 224, procentowo: 50%.
+
+cat hash-.pdf personal.txt | sha256sum
+cat hash-.pdf personal_.txt | sha256sum
+36af360b110c2ae38c50e327325df685a0fadeee1d962bca913a52ed6ddaf878
+d580876cb3b6b5929d4bae8c4415f8f9e3a3f1fdabaef6aea8fcb3ee2de598ff
+Liczba ró¿ni¹cych siê bitów: 126 z 256, procentowo: 49%.
+
+cat hash-.pdf personal.txt | sha384sum
+cat hash-.pdf personal_.txt | sha384sum
+e2bf8ca06bdfc43ec2507b0868eacd1bf5a54684ea51f7f7773f932f8942def662b3524e377d4cf8026d87af2ffc5de0
+fa0e628e3ed32473eaa17a602682e01e54c82786d24b100820af7817776a1c9774839b099f4bc357b79a9dc47f3b5ab7
+Liczba ró¿ni¹cych siê bitów: 182 z 384, procentowo: 47%.
+
+cat hash-.pdf personal.txt | sha512sum
+cat hash-.pdf personal_.txt | sha512sum
+559008cad7dbb68c866f8b59385e2d1a673a944dcfd5eb9bb90ca180bc75c0de444b23e0bf264c7d2b45ba55ff482c3b224f33be74ed3f7804f56f42965f03c3
+05d1f42431ecddc8ee76699ba69a32dc945828b3738f79e57bceb94c6f11a549d6ebea298cd540c907dd39817e48d9a263026b2c06b7232e5becec7a6c3cc3af
+Liczba ró¿ni¹cych siê bitów: 243 z 512, procentowo: 47%.
+
+cat hash-.pdf personal.txt | blake2bsum
+cat hash-.pdf personal_.txt | blake2bsum
+12d9bbf125556b5e7416e33a540a5f487255ccac4a3d9b86d71702546721a26fd2c9dcb4ab677e5e364049699dd2e2b92a16fa63d49020e96a1989479f5ce501
+8be125c7698a1514ac2b4406983732476b036d53740a047e4eb726ebcfd52a7c5f19c0af55742b33eb61e4d83422e076ab8c95381f143318e560c2b72ff86db3
+Liczba ró¿ni¹cych siê bitów: 265 z 512, procentowo: 52%.
+
